@@ -1,0 +1,74 @@
+.img{
+    height: 200px;
+}
+
+.forgot-password-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f7f7f7;
+  }
+  
+  .forgot-password-box {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .title {
+    font-size: 24px;
+    color: #4a4a4a;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 14px;
+    color: #9b9b9b;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .reset-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #5c2d91;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .reset-button:hover {
+    background-color: #4a2373;
+  }
+  
+  .back-to-login {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #9b9b9b;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .back-to-login:hover {
+    color: #5c2d91;
+  }
+  
